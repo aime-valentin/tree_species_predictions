@@ -7,7 +7,7 @@ The at-sensor radiance data was used as the input for the MODTRAN 5 correction (
 
 ## Models
 Multiple models were built to predict either genus or species of a each pixel or canopy in a hyperspectral airborne image. Various spectral resolutions were considered, hyperspectral (295 bands), hyperspectral (30 principal components calcualted from 295 bands), multispectral (22 bands), and multispectral (4 bands). In addition, two different temporal resolution were considered. Models built using only one image were considered unitemporal (individual), and those built using a merged image, meaning merging hyperspectral airborne image taken at different periods, were considered as multitemporal. 
-![Project Workflow.](images/workflow.jpeg)
+![Project Workflow.](images/workflow.jpg)
 
 ## Notes
 - Due to large size of models saved as joblib objects, they are not included in this project. However, if you are interested to test one of our models, feel tree to reach out. 
