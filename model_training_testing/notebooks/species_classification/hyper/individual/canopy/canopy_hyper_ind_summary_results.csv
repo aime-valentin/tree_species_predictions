@@ -1,0 +1,7 @@
+,Model,Test Accuracy(%)
+0,canopy_hyper_ind_aug,60.173577627772424
+0,canopy_hyper_ind_pc30_aug,19.961427193828353
+0,canopy_hyper_ind_sep,51.13300492610837
+0,canopy_hyper_ind_pc30_sep,9.950738916256158
+0,canopy_hyper_ind_oct,62.3046875
+0,canopy_hyper_ind_pc30_oct,19.53125

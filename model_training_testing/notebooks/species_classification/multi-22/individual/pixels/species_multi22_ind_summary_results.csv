@@ -1,0 +1,4 @@
+,Model,Train Accuracy(%),Test Accuracy(%)
+0,species_multi22_ind_nd_aug,99.82540891070913,90.5724524487733
+0,species_multi22_ind_nd_sep,98.5781189020424,89.17893458794961
+0,species_multi22_ind_nd_oct,99.66327777633323,90.55997087908754

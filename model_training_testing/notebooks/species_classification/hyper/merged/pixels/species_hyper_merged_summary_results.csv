@@ -1,0 +1,4 @@
+,Model,Train Accuracy(%),Test Accuracy(%)
+0,species_hyper_merged_nd,99.91850040749797,91.94842539770882
+0,species_hyper_merged_pc,99.91850040749797,86.50804693659849
+0,species_hyper_merged_pc,99.91850040749797,86.54051296322064
