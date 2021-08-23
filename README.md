@@ -1,5 +1,5 @@
 # Center for Advanced Land Management Information Technologies
-Tree Species Classification Using Hyperspectral Airborne Images With Random Forest Model 
+## Tree Species Classification Using Hyperspectral Airborne Images With Random Forest Model 
 
 ## Data
 Three hyperspectral airborne images of East Campus, University of Nebraska-Lincoln were collected in the summer 2018 (at 1:16 pm on August 02, 11:18 am on September 17 and on 12:52 pm on October 16) using an imaging spectrometer (AISA Kestrel, Specim, Oulu, Finland) mounted on a fixed-wing aircraft (Piper Saratoga, Vero Beach, Florida, USA) operated by the Center for Advanced Land Management Information Technologies (CALMIT) at the University of Nebraska – Lincoln. The Kestrel imaging spectrometer collects hyperspectral data with 2.4 nm full width half maximum (FWHM) at 1.75 nm spectral sampling intervals (356 bands in total) from 400 to 1000 nm. The lens focal length was 35.5 mm with a field of view (FOV) of 40°. Images were collected from approximately 2 km above ground level at a speed of 196 km/h and the ground pixel size (IFOV) was approximately 1.5 m. Lab-measured calibration coefficients were used to radiometrically convert digital numbers (DN) to at sensor radiance (Wm-2sr-1nm-1). A geometric correction was done utilizing the position and rotational attributes (heading or yaw, roll, and pitch) of the airplane collected by an inflight RT3000 GPS and inertial measurement unit (IMU) (Oxford Technical Solutions Limited, England). Both radiometric calibration and georeferencing were done using the CaliGeoPro software package (Specim, Oulu, Finland).
@@ -7,7 +7,7 @@ The at-sensor radiance data was used as the input for the MODTRAN 5 correction (
 
 ## Models
 Multiple models were built to predict either genus or species of a each pixel or canopy in a hyperspectral airborne image. Various spectral resolutions were considered, hyperspectral (295 bands), hyperspectral (30 principal components calcualted from 295 bands), multispectral (22 bands), and multispectral (4 bands). In addition, two different temporal resolution were considered. Models built using only one image were considered unitemporal (individual), and those built using a merged image, meaning merging hyperspectral airborne image taken at different periods, were considered as multitemporal. 
-![Project Workflow.](images/workflow.png)
+![Project Workflow.](images/workflow.jpeg)
 
 ## Notes
 - Due to large size of models saved as joblib objects, they are not included in this project. However, if you are interested to test one of our models, feel tree to reach out. 
